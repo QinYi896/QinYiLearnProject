@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8837e8442fb142f40a0acd6864b906ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BallIndex: 0
+  BallIndex: 1
   SpawnPoint: {fileID: 1996294662}
 --- !u!114 &1996294661
 MonoBehaviour:

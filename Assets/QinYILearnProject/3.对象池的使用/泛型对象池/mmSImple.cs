@@ -17,7 +17,7 @@ public class mmSImple : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			Random.InitState((int)System.DateTime.Now.Ticks);
-			GameObject Ball = OP.GetPool(BallIndex);
+			GameObject Ball = OP.GetPool(1);
 			Ball.transform.rotation = SpawnPoint.transform.rotation;
 
 			float xPos = Random.Range(-5f, 5f);
