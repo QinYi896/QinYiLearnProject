@@ -1,5 +1,7 @@
 ﻿public enum mEventType
 {
     ShowText,
-    ShowText2
+    ShowText2,
+    mGaSet,
+
 }
